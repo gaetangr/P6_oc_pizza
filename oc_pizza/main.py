@@ -32,10 +32,10 @@ class GenerateFakeData():
             fake_price = randrange(1, 100)
             fake_quantity = randrange(1, 10)
             print(fake_quantity)
-            print()
-            print(fake_price,"€")
+            print(fake_price, "€")
+            return fake_price, fake_quantity
 
 if __name__ == "__main__":    
     generate_data = GenerateFakeData()
     generate_data.fake_order(20)
-    print()
+    

@@ -5,4 +5,4 @@ generate_data = GenerateFakeData()
 class TestMain:
     
     def test_fake_address(self):
-        assert generate_data.fake_address() == pytest.raises(TypeError)
+        assert generate_data.fake_address() == ()
